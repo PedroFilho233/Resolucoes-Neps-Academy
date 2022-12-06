@@ -1,0 +1,28 @@
+/*Problema da aba 'pratique' do NepsAcademy*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1, n2;
+    cin >> n1 >> n2;
+    
+    if(n1 > n2) {
+        cout << "O maior numero e " << n1 << endl;
+        cout << "O menor numero e " << n2 << endl;
+    }
+    
+    else if(n2 > n1) {
+        cout << "O maior numero e " << n2 << endl;
+        cout << "O menor numero e " << n1 << endl;
+    }
+    
+    else {
+        cout << "Numeros iguais";
+    }
+    
+    
+    return 0;
+}
